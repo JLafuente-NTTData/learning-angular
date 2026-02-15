@@ -1,16 +1,42 @@
 /* To learn more about Typescript configuration file: https://www.typescriptlang.org/docs/handbook/tsconfig-json.html. */
 /* To learn more about Angular compiler options: https://angular.dev/reference/configs/angular-compiler-options. */
 {
+  /* Hereda la configuración base de TypeScript desde tsconfig.json */
   "extends": "./tsconfig.json",
+
   "compilerOptions": {
+    /* rootDir: Carpeta raíz donde se encuentran los archivos TypeScript fuente
+       Define dónde están tus archivos .ts principales
+       Ayuda al compilador a mantener la estructura de directorios
+       En Angular siempre es ./src (la carpeta de código fuente) */
+    "rootDir": "./src",
+
+    /* outDir: Carpeta donde se guardan los archivos compilados
+       Los archivos .ts se convierten a .js y se guardan aquí
+       ./out-tsc/app = carpeta temporal de compilación
+       Es una carpeta intermedia, NO usada en producción */
     "outDir": "./out-tsc/app",
+
+    /* types: Define qué tipos de datos son reconocidos por el compilador
+       node = incluye los tipos de Node.js (console, process, etc.)
+       Necesario si usas código de servidor o utilidades de Node */
     "types": [
       "node"
     ]
   },
+
+  /* include: Archivos y carpetas A INCLUIR en la compilación
+     todos los archivos .ts dentro de src y sus subcarpetas
+     ** = busca recursivamente en todas las carpetas
+     *.ts = solo archivos con extensión .ts */
   "include": [
     "src/**/*.ts"
   ],
+
+  /* exclude: Archivos y carpetas A EXCLUIR de la compilación
+     excluye los archivos de test (pruebas)
+     Los archivos .spec.ts son tests, no código de producción
+     Se compilan por separado cuando ejecutas ng test */
   "exclude": [
     "src/**/*.spec.ts"
   ]
