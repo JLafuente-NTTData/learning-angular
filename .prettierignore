@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Output
+dist/
+build/
+.angular/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# System
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Documentation
+README.md
+CHANGELOG.md
+
+# Config files
+angular.json
+tsconfig.json
+tsconfig.*.json
+
+# Generated files
+*.spec.ts
