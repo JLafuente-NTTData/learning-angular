@@ -1,0 +1,39 @@
+ol {
+  padding: 0;
+}
+
+ol li {
+  list-style: none;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+}
+
+ol article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+
+  .product-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+ol img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  margin-right: 10px;
+}

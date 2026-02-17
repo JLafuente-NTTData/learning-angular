@@ -4,8 +4,7 @@ import { ListProductsComponent } from '../../components/list-products/list-produ
 @Component({
   selector: 'app-products',
   template: `
-    <h1>Products Page</h1>
-    <p>This is the products page.</p>
+    <h2>Productos</h2>
     <app-list-products></app-list-products>
   `,
   imports: [ListProductsComponent],
