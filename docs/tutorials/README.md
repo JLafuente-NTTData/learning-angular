@@ -13,6 +13,7 @@ Esta carpeta contiene los tutoriales del proyecto ordenados por un recorrido rec
 7) [07_VIEW_TRANSITIONS.md](07_VIEW_TRANSITIONS.md) - Transiciones de rutas
 8) [08_CONVENTIONAL_COMMITS.md](08_CONVENTIONAL_COMMITS.md) - Commits profesionales
 9) [09_ENTRY_POINT.md](09_ENTRY_POINT.md) - Punto de entrada de Angular
+10) [10_DEBUGGER.md](10_DEBUGGER.md) - Debugger en VS Code
 
 ## Por categorias
 
@@ -34,6 +35,10 @@ Esta carpeta contiene los tutoriales del proyecto ordenados por un recorrido rec
 ### Routing y UX
 
 - [07_VIEW_TRANSITIONS.md](07_VIEW_TRANSITIONS.md)
+
+### Debugging
+
+- [10_DEBUGGER.md](10_DEBUGGER.md)
 
 ### Metodologia
 
