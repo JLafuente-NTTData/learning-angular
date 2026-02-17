@@ -11,7 +11,7 @@ import { Product } from '../../services/product';
       <img [src]="product().image" [alt]="product().title" style="width: 100px;" />
       <h4>{{ product().title }}</h4>
       <p>{{ product().description }}</p>
-      <p><strong>Precio:</strong> {{ product().price }}</p>
+      <p><strong>Precio:</strong> {{ product().price }} €</p>
     </section>
   `,
   styleUrls: ['./detail-product-card.css'],
