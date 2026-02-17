@@ -101,6 +101,7 @@ Abre el indice y elige el tutorial que necesitas:
 
 - **Indice completo:** [docs/tutorials/README.md](docs/tutorials/README.md)
 - **Configuración:** Edita [eslint.config.js](eslint.config.js) o [.prettierrc.json](.prettierrc.json)
+- **Debugger:** Sigue [docs/tutorials/10_DEBUGGER.md](docs/tutorials/10_DEBUGGER.md)
 
 ---
 
