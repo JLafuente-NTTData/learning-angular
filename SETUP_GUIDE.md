@@ -63,6 +63,11 @@ Creé dos tutoriales detallados para aprender:
    - Componentes de nav y footer
    - Estilos básicos
 
+- **[PRODUCTOS_TUTORIAL.md](PRODUCTOS_TUTORIAL.md)** - Feature de productos
+   - Servicio de productos
+   - Pagina y componente de lista
+   - Flujo de datos y rutas
+
 ---
 
 ## ⚙️ Archivos de Configuración
@@ -115,6 +120,7 @@ Abre los archivos de tutorial según lo que necesites:
 - **Errores en código:** Mira las reglas en [ESLINT_TUTORIAL.md](ESLINT_TUTORIAL.md)
 - **Configuración:** Edita [eslint.config.js](eslint.config.js) o [.prettierrc.json](.prettierrc.json)
 - **Estructura de la app:** Lee [LAYOUT_TUTORIAL.md](LAYOUT_TUTORIAL.md)
+- **Feature de productos:** Lee [PRODUCTOS_TUTORIAL.md](PRODUCTOS_TUTORIAL.md)
 
 ---
 
