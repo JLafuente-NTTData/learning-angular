@@ -9,8 +9,8 @@ Esta guia explica como activar transiciones de rutas con View Transitions y dond
 
 ## Archivos implicados
 
-- Configuracion del router: [src/app/app.config.ts](src/app/app.config.ts)
-- Estilos globales: [src/styles.css](src/styles.css)
+- Configuracion del router: [src/app/app.config.ts](../../src/app/app.config.ts)
+- Estilos globales: [src/styles.css](../../src/styles.css)
 
 ## Paso 1: Activar View Transitions en el router
 

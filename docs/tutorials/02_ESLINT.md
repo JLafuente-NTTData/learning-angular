@@ -339,9 +339,9 @@ O en un archivo completo (al inicio):
 
 ## 🔗 Archivos importantes
 
-- [eslint.config.js](eslint.config.js) - Configuración
-- [.vscode/settings.json](.vscode/settings.json) - Integración con VS Code
-- [PRETTIER_TUTORIAL.md](PRETTIER_TUTORIAL.md) - Guía de Prettier
+- [eslint.config.js](../../eslint.config.js) - Configuración
+- [.vscode/settings.json](../../.vscode/settings.json) - Integración con VS Code
+- [01_PRETTIER.md](01_PRETTIER.md) - Guía de Prettier
 
 ---
 

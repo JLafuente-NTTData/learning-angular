@@ -10,10 +10,10 @@ Esta guia explica la feature de productos paso a paso: servicio, pagina, compone
 
 ## Archivos implicados
 
-- Servicio: [src/app/services/product.ts](src/app/services/product.ts)
-- Pagina: [src/app/pages/products/products.ts](src/app/pages/products/products.ts)
-- Componente lista: [src/app/components/list-products/list-product.ts](src/app/components/list-products/list-product.ts)
-- Rutas: [src/app/app.routes.ts](src/app/app.routes.ts)
+- Servicio: [src/app/services/product.ts](../../src/app/services/product.ts)
+- Pagina: [src/app/pages/products/products.ts](../../src/app/pages/products/products.ts)
+- Componente lista: [src/app/components/list-products/list-product.ts](../../src/app/components/list-products/list-product.ts)
+- Rutas: [src/app/app.routes.ts](../../src/app/app.routes.ts)
 
 ## Flujo de datos (resumen)
 

@@ -12,12 +12,12 @@ Tener una estructura base consistente:
 
 ## Archivos implicados
 
-- Layout: [src/app/layouts/main-layout/main-layout.ts](src/app/layouts/main-layout/main-layout.ts)
-- Estilos del layout: [src/app/layouts/main-layout/main-layout.css](src/app/layouts/main-layout/main-layout.css)
-- Nav: [src/app/components/nav-bar/navbar.ts](src/app/components/nav-bar/navbar.ts)
-- Estilos del nav: [src/app/components/nav-bar/navbar.css](src/app/components/nav-bar/navbar.css)
-- Footer: [src/app/components/footer/footer.ts](src/app/components/footer/footer.ts)
-- Estilos del footer: [src/app/components/footer/footer.css](src/app/components/footer/footer.css)
+- Layout: [src/app/layouts/main-layout/main-layout.ts](../../src/app/layouts/main-layout/main-layout.ts)
+- Estilos del layout: [src/app/layouts/main-layout/main-layout.css](../../src/app/layouts/main-layout/main-layout.css)
+- Nav: [src/app/components/nav-bar/navbar.ts](../../src/app/components/nav-bar/navbar.ts)
+- Estilos del nav: [src/app/components/nav-bar/navbar.css](../../src/app/components/nav-bar/navbar.css)
+- Footer: [src/app/components/footer/footer.ts](../../src/app/components/footer/footer.ts)
+- Estilos del footer: [src/app/components/footer/footer.css](../../src/app/components/footer/footer.css)
 
 ## Como funciona el layout
 
@@ -39,7 +39,7 @@ Estructura clave del template:
 </div>
 ```
 
-Este layout se registra en el router para que cada ruta se renderice dentro de el. Mira [src/app/app.routes.ts](src/app/app.routes.ts).
+Este layout se registra en el router para que cada ruta se renderice dentro de el. Mira [src/app/app.routes.ts](../../src/app/app.routes.ts).
 
 ## Componente Nav
 

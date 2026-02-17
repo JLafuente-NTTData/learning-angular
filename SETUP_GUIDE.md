@@ -46,41 +46,10 @@ npm test          # Ejecuta tests
 
 ## 📚 Archivos de Tutorial
 
-Creé dos tutoriales detallados para aprender:
+Todos los tutoriales estan organizados en una carpeta con indice:
 
-- **[PRETTIER_TUTORIAL.md](PRETTIER_TUTORIAL.md)** - Guía completa de Prettier
-  - ¿Qué es Prettier?
-  - Explicación de cada opción
-  - Ejemplos prácticos
-
-- **[ESLINT_TUTORIAL.md](ESLINT_TUTORIAL.md)** - Guía completa de ESLint
-  - ¿Qué es ESLint?
-  - Cada regla explicada
-  - Cómo usarlo en VS Code
-
-- **[LAYOUT_TUTORIAL.md](LAYOUT_TUTORIAL.md)** - Layout base (nav + contenido + footer)
-   - Estructura del layout
-   - Componentes de nav y footer
-   - Estilos básicos
-
-- **[PRODUCTOS_TUTORIAL.md](PRODUCTOS_TUTORIAL.md)** - Feature de productos
-   - Servicio de productos
-   - Pagina y componente de lista
-   - Flujo de datos y rutas
-
-- **[DETAIL_CARD_TUTORIAL.md](DETAIL_CARD_TUTORIAL.md)** - Detalle de producto
-   - Componente detail card
-   - Pagina de detalle
-   - Estilos basicos
-
-- **[SPINNER_TUTORIAL.md](SPINNER_TUTORIAL.md)** - Estados de carga
-   - Componente spinner
-   - Uso en lista y detalle
-   - Estilos basicos
-
-- **[VIEW_TRANSITIONS_TUTORIAL.md](VIEW_TRANSITIONS_TUTORIAL.md)** - Transiciones de rutas
-   - Activacion en el router
-   - Estilos globales
+- **Indice completo:** [docs/tutorials/README.md](docs/tutorials/README.md)
+- **Ruta recomendada:** sigue el orden numerado dentro del indice
 
 ---
 
@@ -128,16 +97,10 @@ Ctrl+Shift+X (Extensions) → Busca y instala
 
 ## 🎓 ¿Quieres aprender más?
 
-Abre los archivos de tutorial según lo que necesites:
+Abre el indice y elige el tutorial que necesitas:
 
-- **Empezando:** Lee [PRETTIER_TUTORIAL.md](PRETTIER_TUTORIAL.md) primero
-- **Errores en código:** Mira las reglas en [ESLINT_TUTORIAL.md](ESLINT_TUTORIAL.md)
+- **Indice completo:** [docs/tutorials/README.md](docs/tutorials/README.md)
 - **Configuración:** Edita [eslint.config.js](eslint.config.js) o [.prettierrc.json](.prettierrc.json)
-- **Estructura de la app:** Lee [LAYOUT_TUTORIAL.md](LAYOUT_TUTORIAL.md)
-- **Feature de productos:** Lee [PRODUCTOS_TUTORIAL.md](PRODUCTOS_TUTORIAL.md)
-- **Detalle de producto:** Lee [DETAIL_CARD_TUTORIAL.md](DETAIL_CARD_TUTORIAL.md)
-- **Estados de carga:** Lee [SPINNER_TUTORIAL.md](SPINNER_TUTORIAL.md)
-- **Transiciones de rutas:** Lee [VIEW_TRANSITIONS_TUTORIAL.md](VIEW_TRANSITIONS_TUTORIAL.md)
 
 ---
 

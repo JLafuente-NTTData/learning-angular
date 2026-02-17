@@ -9,9 +9,9 @@ Esta guia explica el componente de tarjeta de detalle y su uso dentro de la pagi
 
 ## Archivos implicados
 
-- Componente: [src/app/components/detail-product-card/detail-product-card.ts](src/app/components/detail-product-card/detail-product-card.ts)
-- Estilos: [src/app/components/detail-product-card/detail-product-card.css](src/app/components/detail-product-card/detail-product-card.css)
-- Pagina detalle: [src/app/pages/detail-product-page/detail-product-page.ts](src/app/pages/detail-product-page/detail-product-page.ts)
+- Componente: [src/app/components/detail-product-card/detail-product-card.ts](../../src/app/components/detail-product-card/detail-product-card.ts)
+- Estilos: [src/app/components/detail-product-card/detail-product-card.css](../../src/app/components/detail-product-card/detail-product-card.css)
+- Pagina detalle: [src/app/pages/detail-product-page/detail-product-page.ts](../../src/app/pages/detail-product-page/detail-product-page.ts)
 
 ## Flujo de datos (resumen)
 

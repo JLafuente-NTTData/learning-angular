@@ -9,10 +9,10 @@ Esta guia explica el componente Spinner y como se usa para mostrar estados de ca
 
 ## Archivos implicados
 
-- Componente: [src/app/components/spinner/spinner.ts](src/app/components/spinner/spinner.ts)
-- Estilos: [src/app/components/spinner/spinner.css](src/app/components/spinner/spinner.css)
-- Uso en lista: [src/app/components/list-products/list-product.ts](src/app/components/list-products/list-product.ts)
-- Uso en detalle: [src/app/pages/detail-product-page/detail-product-page.ts](src/app/pages/detail-product-page/detail-product-page.ts)
+- Componente: [src/app/components/spinner/spinner.ts](../../src/app/components/spinner/spinner.ts)
+- Estilos: [src/app/components/spinner/spinner.css](../../src/app/components/spinner/spinner.css)
+- Uso en lista: [src/app/components/list-products/list-product.ts](../../src/app/components/list-products/list-product.ts)
+- Uso en detalle: [src/app/pages/detail-product-page/detail-product-page.ts](../../src/app/pages/detail-product-page/detail-product-page.ts)
 
 ## Componente Spinner
 
