@@ -17,12 +17,12 @@ Esta guia explica la feature de productos paso a paso: servicio, pagina, compone
 
 ## Flujo de datos (resumen)
 
-1) El usuario entra a /products
-2) Se carga ProductsPage
-3) ProductsPage renderiza el componente de lista
-4) ListProductsComponent pide datos al servicio
-5) El servicio llama a la API y devuelve productos
-6) La lista se renderiza con enlaces al detalle
+1. El usuario entra a /products
+2. Se carga ProductsPage
+3. ProductsPage renderiza el componente de lista
+4. ListProductsComponent pide datos al servicio
+5. El servicio llama a la API y devuelve productos
+6. La lista se renderiza con enlaces al detalle
 
 ## Paso 1: Servicio de productos
 

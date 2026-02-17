@@ -15,11 +15,11 @@ Esta guia explica el componente de tarjeta de detalle y su uso dentro de la pagi
 
 ## Flujo de datos (resumen)
 
-1) Se navega a /products/:id
-2) DetailProductPage lee el id desde la ruta
-3) El servicio obtiene el producto
-4) Se pasa el producto a DetailProductCard
-5) El componente renderiza los datos
+1. Se navega a /products/:id
+2. DetailProductPage lee el id desde la ruta
+3. El servicio obtiene el producto
+4. Se pasa el producto a DetailProductCard
+5. El componente renderiza los datos
 
 ## Paso 1: Componente de tarjeta
 

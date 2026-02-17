@@ -20,15 +20,13 @@ En Angular 20 se habilita con `withViewTransitions()` dentro de `provideRouter`.
 import { provideRouter, withViewTransitions } from '@angular/router';
 
 export const appConfig: ApplicationConfig = {
-  providers: [
-    provideRouter(routes, withViewTransitions()),
-  ],
+  providers: [provideRouter(routes, withViewTransitions())],
 };
 ```
 
 Idea clave:
 
-- Esto es un *progressive enhancement*. Si el navegador no lo soporta, la app sigue funcionando sin animacion.
+- Esto es un _progressive enhancement_. Si el navegador no lo soporta, la app sigue funcionando sin animacion.
 
 ## Paso 2: Estilos globales
 
@@ -53,4 +51,4 @@ Puedes crear animaciones mas personalizadas usando `@keyframes` y asignando `vie
 
 ## Nota importante
 
-View Transitions esta en *developer preview* en Angular 20 y depende del soporte del navegador.
+View Transitions esta en _developer preview_ en Angular 20 y depende del soporte del navegador.

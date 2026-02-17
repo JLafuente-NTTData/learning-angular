@@ -23,9 +23,9 @@ Tener una estructura base consistente:
 
 El layout principal es la estructura base de la app. Renderiza:
 
-1) Navegacion
-2) Router outlet (contenido de pagina)
-3) Footer
+1. Navegacion
+2. Router outlet (contenido de pagina)
+3. Footer
 
 Estructura clave del template:
 
