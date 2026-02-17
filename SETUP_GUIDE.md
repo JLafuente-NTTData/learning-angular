@@ -78,6 +78,10 @@ Creé dos tutoriales detallados para aprender:
    - Uso en lista y detalle
    - Estilos basicos
 
+- **[VIEW_TRANSITIONS_TUTORIAL.md](VIEW_TRANSITIONS_TUTORIAL.md)** - Transiciones de rutas
+   - Activacion en el router
+   - Estilos globales
+
 ---
 
 ## ⚙️ Archivos de Configuración
@@ -133,6 +137,7 @@ Abre los archivos de tutorial según lo que necesites:
 - **Feature de productos:** Lee [PRODUCTOS_TUTORIAL.md](PRODUCTOS_TUTORIAL.md)
 - **Detalle de producto:** Lee [DETAIL_CARD_TUTORIAL.md](DETAIL_CARD_TUTORIAL.md)
 - **Estados de carga:** Lee [SPINNER_TUTORIAL.md](SPINNER_TUTORIAL.md)
+- **Transiciones de rutas:** Lee [VIEW_TRANSITIONS_TUTORIAL.md](VIEW_TRANSITIONS_TUTORIAL.md)
 
 ---
 
