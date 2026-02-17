@@ -73,6 +73,11 @@ Creé dos tutoriales detallados para aprender:
    - Pagina de detalle
    - Estilos basicos
 
+- **[SPINNER_TUTORIAL.md](SPINNER_TUTORIAL.md)** - Estados de carga
+   - Componente spinner
+   - Uso en lista y detalle
+   - Estilos basicos
+
 ---
 
 ## ⚙️ Archivos de Configuración
@@ -127,6 +132,7 @@ Abre los archivos de tutorial según lo que necesites:
 - **Estructura de la app:** Lee [LAYOUT_TUTORIAL.md](LAYOUT_TUTORIAL.md)
 - **Feature de productos:** Lee [PRODUCTOS_TUTORIAL.md](PRODUCTOS_TUTORIAL.md)
 - **Detalle de producto:** Lee [DETAIL_CARD_TUTORIAL.md](DETAIL_CARD_TUTORIAL.md)
+- **Estados de carga:** Lee [SPINNER_TUTORIAL.md](SPINNER_TUTORIAL.md)
 
 ---
 
