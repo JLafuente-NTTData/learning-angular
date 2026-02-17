@@ -8,8 +8,6 @@ import { ProductService, Product } from '../../services/product'; // Importamos 
   standalone: true,
   imports: [DetailProductCard],
   template: `
-    <h2>Product Detail</h2>
-    <p>This is the product detail page.</p>
     @if (product(); as product) {
       <app-detail-product-card [product]="product"></app-detail-product-card>
     } @else {
