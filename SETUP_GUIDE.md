@@ -68,6 +68,11 @@ Creé dos tutoriales detallados para aprender:
    - Pagina y componente de lista
    - Flujo de datos y rutas
 
+- **[DETAIL_CARD_TUTORIAL.md](DETAIL_CARD_TUTORIAL.md)** - Detalle de producto
+   - Componente detail card
+   - Pagina de detalle
+   - Estilos basicos
+
 ---
 
 ## ⚙️ Archivos de Configuración
@@ -121,6 +126,7 @@ Abre los archivos de tutorial según lo que necesites:
 - **Configuración:** Edita [eslint.config.js](eslint.config.js) o [.prettierrc.json](.prettierrc.json)
 - **Estructura de la app:** Lee [LAYOUT_TUTORIAL.md](LAYOUT_TUTORIAL.md)
 - **Feature de productos:** Lee [PRODUCTOS_TUTORIAL.md](PRODUCTOS_TUTORIAL.md)
+- **Detalle de producto:** Lee [DETAIL_CARD_TUTORIAL.md](DETAIL_CARD_TUTORIAL.md)
 
 ---
 
