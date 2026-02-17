@@ -58,6 +58,11 @@ Creé dos tutoriales detallados para aprender:
   - Cada regla explicada
   - Cómo usarlo en VS Code
 
+- **[LAYOUT_TUTORIAL.md](LAYOUT_TUTORIAL.md)** - Layout base (nav + contenido + footer)
+   - Estructura del layout
+   - Componentes de nav y footer
+   - Estilos básicos
+
 ---
 
 ## ⚙️ Archivos de Configuración
@@ -109,6 +114,7 @@ Abre los archivos de tutorial según lo que necesites:
 - **Empezando:** Lee [PRETTIER_TUTORIAL.md](PRETTIER_TUTORIAL.md) primero
 - **Errores en código:** Mira las reglas en [ESLINT_TUTORIAL.md](ESLINT_TUTORIAL.md)
 - **Configuración:** Edita [eslint.config.js](eslint.config.js) o [.prettierrc.json](.prettierrc.json)
+- **Estructura de la app:** Lee [LAYOUT_TUTORIAL.md](LAYOUT_TUTORIAL.md)
 
 ---
 
