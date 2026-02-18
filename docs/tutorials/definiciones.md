@@ -40,9 +40,6 @@ console.log(double()); // 4
 ```
 
 ### effect (breve)
-- **Qué es:** Una función que reacciona a cambios en `signals` y ejecuta código con efectos secundarios.
-- **Para qué sirve:** Ejecutar lógica fuera de la renderización (p. ej. sincronizar con APIs, almacenar en localStorage).
-- **Enlace oficial:** https://v20.angular.dev/essentials/signals#effects
 
 Ejemplo:
 
@@ -51,6 +48,34 @@ import { signal, effect } from '@angular/core';
 
 const count = signal(0);
 effect(() => console.log('count cambió a', count()));
+```
+
+### observable
+- **Qué es:** Un primitivo para representar flujos de valores asíncronos, proporcionado por RxJS; Angular lo usa ampliamente (p. ej. `HttpClient` devuelve `Observable`).
+- **Para qué sirve:** Modelar eventos, respuestas HTTP, timers y cualquier stream de datos de forma composable y cancelable.
+- **Uso básico:** crear con creadores (`of`, `from`, `new Observable`) y transformar con operadores (p. ej. `map`, `filter`).
+- **Enlace:** https://rxjs.dev/guide/observable  —  https://v20.angular.dev/guide/observables
+
+Ejemplo:
+
+```ts
+import { of } from 'rxjs';
+
+const obs = of(1, 2, 3);
+obs.subscribe(v => console.log(v));
+```
+
+### subscribe / unsubscribe
+- **Qué es:** `subscribe` conecta un `Observer` al `Observable` para recibir valores; `unsubscribe` cancela esa conexión.
+- **Para qué sirve:** Consumir valores del stream y liberar recursos para evitar fugas de memoria.
+- **Uso básico:** `const sub = obs.subscribe(next, error, complete); sub.unsubscribe();`
+- **Enlace:** https://rxjs.dev/guide/subscription
+
+Ejemplo:
+
+```ts
+const sub = obs.subscribe({ next: v => console.log(v) });
+sub.unsubscribe();
 ```
 
 ---
