@@ -10,11 +10,11 @@ import { FormControl, ReactiveFormsModule } from '@angular/forms';
   template: `
     <div class="form-container">
       <h3>Formulario de Registro</h3>
-      <!-- <form>
+      <form>
             <label for="username">Nombre de Usuario:</label>
             <input type="text" id="username" name="username" required>
             Favorite Color: <input type="text" [formControl]="favoriteColorControl">
-        </form> -->
+        </form>
     </div>
   `,
 })
